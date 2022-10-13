@@ -12,16 +12,17 @@ class Sheets:
     pass
 
   def save_df_locally(self):
-    # defining the scope of the application
-    scope_app = [
+
+    #credentials to the account
+    credentials = ServiceAccountCredentials.from_service_account_info(
+      my_secret)
+    scope = [
       'https://spreadsheets.google.com/feeds',
       'https://www.googleapis.com/auth/drive'
     ]
-    #credentials to the account
-    cred = ServiceAccountCredentials.from_json_keyfile_name(
-      my_secret, scope_app)
+    creds = credentials.with_scopes(scope)
     # authorize the clientsheet
-    client = gspread.authorize(cred)
+    client = gspread.authorize(creds)
 
     sheet = client.open('Town Star Goods Breakdown')
     sheet_instance = sheet.get_worksheet(0)
@@ -38,6 +39,3 @@ class Sheets:
   def get_df_data(self):
     df = pd.read_csv('df_original.csv')
     return df
-
-
-print(my_secret)
