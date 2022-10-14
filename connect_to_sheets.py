@@ -1,10 +1,10 @@
 import os
 import gspread
 import pandas as pd
-from oauth2client.service_account import ServiceAccountCredentials
+from google.oauth2 import service_account
+import json
 
-my_secret = os.environ['google_json']
-
+my_secret = json.loads(os.environ['google_json'])
 
 class Sheets:
 
@@ -14,7 +14,7 @@ class Sheets:
   def save_df_locally(self):
 
     #credentials to the account
-    credentials = ServiceAccountCredentials.from_service_account_info(
+    credentials = service_account.Credentials.from_service_account_info(
       my_secret)
     scope = [
       'https://spreadsheets.google.com/feeds',

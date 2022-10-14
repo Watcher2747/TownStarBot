@@ -1,0 +1,52 @@
+Item,CityPrice,ProximityBonus,ProximityPenalty,Req1,Req1 Units,Req2,Req2 Units,Req3,Req3 Units,Time0,Time1,Time2,Time3
+Baguette,91300,None,None,Dough,2,Butter,2,Wood,2,60,120,240,480
+Batter,48700,None,None,Flour,5,Eggs,3,Butter,2,30,60,120,240
+Blue Steel,270950,Energy,None,Steel,5,Energy,10,Uniforms,1,90,180,360,720
+Brine,300,Water,Salty,Water,3,,,,,475,190,75,30
+Butter,16250,None,None,Milk,2,Salt,2,Sugar,1,30,60,120,240
+Cabernet Grapes,1820,Water,"Dirty,Salty,Shady",Water,2,Wood,1,,,420,840,1680,3360
+Cabernet Sauvignon,42000,None,None,Cabernet Grapes,5,Wine Bottle,1,Oak Barrel,1,270,540,1080,2160
+Cake,178050,Energy,None,Batter,3,Sugar,10,Energy,3,60,120,240,480
+Candy Canes,25700,Energy,None,Peppermint,4,Sugar,6,Energy,10,120,240,480,960
+Chardonnay,27950,None,None,Chardonnay Grapes,3,Wine Bottle,1,Oak Barrel,1,240,480,960,1920
+Chardonnay Grapes,810,Water,"Dirty,Salty,Shady",Water,2,Wood,1,,,360,720,1440,2880
+Chromium,4600,"Energy,Water Drum",Water,Lumber,3,Energy,3,Water Drum,2,60,120,240,480
+Cotton,350,Water,"Dirty,Salty,Shady",Water,4,,,,,20,40,80,160
+Cotton Yarn,3250,"Cotton,Energy",None,Cotton,5,Lumber,1,Energy,1,60,120,240,480
+Crude Oil,50,None,None,,,,,,,180,360,720,1440
+Dough,29150,None,None,Flour,5,Eggs,1,Butter,1,30,60,120,240
+Eggs,1650,Water,Dirty,Feed,3,Wood,1,Water,1,30,60,120,240
+Energy,150,"Crude Oil,Water Drum",Shady,Crude Oil,2,Water Drum,1,,,20,40,80,160
+Feed,340,Wheat,None,Wheat,1,,,,,5,10,20,40
+Flour,2250,Wheat,Shady,Wheat,5,Wood,3,,,30,60,120,240
+Gasoline,1450,"Water Drum,Energy",None,Petroleum,1,Water Drum,2,Energy,6,30,60,120,240
+Honey,7500,None,None,Nectar,3,Lumber,1,Ceramic Bowl,1,60,120,240,480
+Honeycomb,,None,None,Nectar,6,Lumber,2,Ceramic Bowl,1,120,240,480,960
+Iron,4600,"Energy,Water Drum",Water,Lumber,3,Energy,3,Water Drum,2,30,60,120,240
+Jet Fuel,1900,"Water Drum,Energy",None,Petroleum,3,Water Drum,2,Energy,3,90,180,360,720
+Limestone,4600,"Energy,Water Drum",Water,Lumber,3,Energy,3,Water Drum,2,60,120,240,480
+Lumber,1350,"Energy,Water Drum",None,Wood,4,Energy,2,Water Drum,1,10,20,40,80
+Milk,4000,Water,Dirty,Feed,8,Wood,1,Water,3,30,60,120,240
+Oak Barrel,5500,Energy,None,Oak Wood,3,Iron,1,Energy,1,30,60,120,240
+Oak Wood,250,Water,"Dirty,Salty,Shady",Water,5,,,,,60,120,240,480
+Peppermint,800,Water,None,Water,3,Wood,1,,,240,480,960,1920
+Petroleum,450,"Crude Oil,Water Drum,Energy",None,Crude Oil,2,Water Drum,1,Energy,2,30,60,120,240
+Pinot Noir,57200,None,None,Pinot Noir Grapes,6,Wine Bottle,1,Oak Barrel,1,300,600,1200,2400
+Pinot Noir Grapes,2670,Water,"Dirty,Salty,Shady",Water,2,Wood,1,,,450,900,1800,3600
+Pumpkin,1000,Water,"Dirty,Salty,Shady",Water,20,,,,,300,600,1200,2400
+Pumpkin Pie,49750,None,None,Pumpkin,10,Sugar,10,Eggs,5,180,360,720,1440
+Salt,2550,None,Shady,Brine,6,Wood,3,,,30,60,120,240
+Silica,1000,Energy,"Salty,Sandy",Energy,2,,,,,565,225,90,35
+Steel,47000,"Energy,Water Drum",None,Iron,10,Energy,5,Water Drum,5,90,180,360,720
+Sugar,3150,Sugarcane,Shady,Sugarcane,6,Wood,3,,,30,60,120,240
+Sugarcane,400,Water,"Dirty,Salty,Shady",Water,4,,,,,20,40,80,160
+Uniforms,34450,Energy,None,Cotton Yarn,3,Wool Yarn,1,Energy,3,60,120,240,480
+Water,50,None,Dirty,,,,,,,30,60,120,240
+Water Drum,50,Water,Dirty,Water,3,,,,,30,60,120,240
+Wax,,None,None,Nectar,3,Lumber,1,Ceramic Bowl,1,60,120,240,480
+Wheat,300,Water,"Dirty,Salty,Shady",Water,3,,,,,20,40,80,160
+Wine Bottle,12800,None,None,Silica,3,Chromium,1,Limestone,1,60,120,240,480
+Wood,250,Water,"Dirty,Salty,Shady",Water,7,,,,,40,80,160,320
+Wooden Box,,Energy,None,Lumber,1,Wood,2,Energy,2,25,50,100,200
+Wool,4550,Water,Dirty,Feed,9,Wood,1,Water,5,60,120,240,480
+Wool Yarn,24250,Energy,None,Wool,5,Lumber,1,Energy,1,60,120,240,480
